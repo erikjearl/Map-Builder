@@ -165,7 +165,7 @@ public class Map {
 	}
 
 	public final int secondShortestPath(String source, String destination) {
-		int secondShort = -1; // change this value
+		int secondShort = -1;
 		Iterator<String> it = shortestPath(source, destination).iterator();
 		if (!it.hasNext()) // no path exists
 			return -1;
