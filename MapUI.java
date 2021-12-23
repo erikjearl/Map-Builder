@@ -56,7 +56,7 @@ public class MapUI implements ActionListener {
 
 		// make a JPanel
 		panel = new JPanel();
-		panel.setBackground(Color.green);
+		panel.setBackground(new Color(148,0,211));
 		panel.setLayout(new BorderLayout());
 		panel.setBorder(BorderFactory.createEmptyBorder(5, 5, 5, 5));
 
